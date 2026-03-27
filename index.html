@@ -123,14 +123,14 @@ Playwright MCP AI Driven tests.
                     <ol class="nonumbers">
                         <li class="next">Zależny od locatorów (id, class, name)</li>
                         <li class="next">Zależność od typu kontrolki HTML</li>
-                        <li class="next">Problemy z sychronizacją dynamicznych elementów</li>
+                        <li class="next">Problemy z synchronizacją dynamicznych elementów</li>
                     </ol>
                 </ol>
             </div>
           </div>
     </section>
     <section class="slide creamGrey kkk">
-        <span class="shout colors" ><span>Dochodzi też pilnowanie wersji drivera z wersją przeglądarki
+        <span class="shout colors" ><span>Dochodzi też pilnowanie zgodności wersji drivera z wersją przeglądarki
         </span></span>
     </section>
     <section class="slide creamGrey kkk">
@@ -169,8 +169,8 @@ Playwright MCP AI Driven tests.
                 <ol class="nonumbers">
                     <li class=" bold">Trochę sceptyzmu</li>
                     <ol class="nonumbers">
-                        <li class="next">Playwright to framework Microsoftu więc oczywiście .NET-owcom może się podobać</li>
-                        <li class="next">Nie znacz to, że automatycznie jest on lepszy</li>
+                        <li class="next">Playwright to framework Microsoftu, więc oczywiście .NET-owcom może się podobać</li>
+                        <li class="next">Nie znacz to, że automatycznie jest lepszy</li>
                     </ol>
                 </ol>
             </div>
@@ -187,7 +187,7 @@ Playwright MCP AI Driven tests.
                     <ol class="nonumbers">
                         <li class="next">Autowait</li>
                         <li class="next">Semantic locators</li>
-                        <li class="next">Sam pobiera kontatybilne wersje przeglądarki</li>
+                        <li class="next">Sam pobiera kompatybilne wersje przeglądarki</li>
                     </ol>
                 </ol>
             </div>
@@ -812,21 +812,6 @@ Playwright MCP AI Driven tests.
 
                             // ── Podsumowanie por&#243;wnawcze ──────────────────────────────
                             Console.WriteLine();
-                            //Console.ForegroundColor = ConsoleColor.Yellow;
-                            //Console.WriteLine(&quot;POROWNANIE vs Playwright MCP:&quot;);
-                            //Console.ResetColor();
-                            //Console.WriteLine();
-                            //Console.WriteLine(&quot;  Selenium                      Playwright MCP&quot;);
-                            //Console.WriteLine(&quot;  ─────────────────────────     ──────────────────────────&quot;);
-                            //Console.WriteLine(&quot;  By.Id(\&quot;firstName\&quot;)        vs  ARIA accessibility tree&quot;);
-                            //Console.WriteLine(&quot;  Zmiana ID =&gt; FAIL          vs  Zmiana ID =&gt; nadal dziala&quot;);
-                            //Console.WriteLine(&quot;  ~120 linii kodu            vs  ~5 linii (prompt)&quot;);
-                            //Console.WriteLine(&quot;  Brak AI                    vs  qwen3:8b (lokalny, RODO OK)&quot;);
-                            //Console.WriteLine(&quot;  Thread.Sleep / flaki       vs  auto-wait wbudowany&quot;);
-                            //Console.WriteLine();
-                            //Console.ForegroundColor = ConsoleColor.Cyan;
-                            //Console.WriteLine(&quot;  Teraz zmien id=\&quot;firstName\&quot; na id=\&quot;fname\&quot; w HTML...&quot;);
-                            //Console.WriteLine(&quot;  Selenium: FAIL | Playwright MCP: nadal dziala&quot;);
                             Console.ResetColor();
                         }
                         catch (WebDriverTimeoutException ex)
@@ -1104,7 +1089,7 @@ Playwright MCP AI Driven tests.
           </div>
     </section>
     <section class="slide creamGrey kkk">
-        <span class="shout colors" ><span>Uruchomie Playwright MCP z poziomu kod w C#
+        <span class="shout colors" ><span>Uruchomię Playwright MCP z poziomu kod w C#
         </span></span>
     </section>
     <section class="slide" style="background-color:#121212">
